@@ -1,5 +1,10 @@
 Toto App Based Ionic
 =====================
+This is the ionic sample app according to the [Ionic guide](http://ionicframework.com/docs/guide/preface.html)
+
+*Android platform* is only added.
+
+
 
 # ionic 관련 정보
 
@@ -33,10 +38,6 @@ $ ionic run android
 $ ionic info
 $ ionic --version
 ```
-
-
-## References
-* [Ionic guide](http://ionicframework.com/docs/guide/preface.html)
 
 
 
