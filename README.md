@@ -1,29 +1,42 @@
 Toto App Based Ionic
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+# ionic 관련 정보
 
-## Using this project
-
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
-
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
-
+## ionic 설치
 ```bash
-$ npm install -g ionic
+$ npm install -g cordova ionic
 ```
 
-Then run: 
-
+## ionic project 만들기
 ```bash
-$ ionic start myProject tabs
+$ ionic start [app name] [template]
+$ ionic start myApp blank
+$ ionic start myApp tabs
+$ ionic start myApp sidemenu
 ```
 
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
+## ionic 브라우저에서 실행
+```bash
+$ ionic serve
+$ ionic serve --labs
+```
 
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+## 안드로이드에서 실행
+```bash 
+$ ionic platform add android
+$ ionic run android
+```
+
+## ionic 정보보기
+```bash
+$ ionic info
+$ ionic --version
+```
 
 
 ## References
 * [Ionic guide](http://ionicframework.com/docs/guide/preface.html)
+
+
+
